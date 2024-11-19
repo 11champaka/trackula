@@ -1,0 +1,374 @@
+.bmr-calculator {
+  max-width: 300px;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 24px;
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+}
+
+.bmr-calculator,
+.bmr-calculator * {
+  box-sizing: border-box;
+}
+
+.bmr-calculator h2 {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  font-weight: 100;
+  margin: -8px -24px;
+  margin-bottom: 8px;
+  padding: 16px;
+}
+
+.bmr-calculator form h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 16px 0 10px 0;
+}
+
+.bmr-calculator form input[type="text"] {
+  width: 100%;
+  padding: 4px 16px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #d5dbdd;
+}
+
+.bmr-calculator form input[type="text"].invalid {
+  border: 1px solid red;
+}
+
+.bmr-calculator form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bmr-calculator form #female {
+  margin-left: 20px;
+}
+
+.bmr-calculator form .height,
+.bmr-calculator form .weight {
+  position: relative;
+}
+
+.bmr-calculator form .unit {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  color: #777;
+}
+
+.bmr-calculator .result .calculate-btn {
+  padding: 8px 24px;
+  margin: 16px 0;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+
+.bmr-calculator .result {
+  text-align: center;
+  color: #4e4e4e;
+  font-size: 18px;
+}
+
+.bmr-calculator .result .calories {
+  color: green;
+  font-size: 38px;
+  font-weight: 900;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.bmr-calculator .result .error-message {
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.bmr-calculator .result .error-message.active {
+  display: block;
+}
+
+.container
+{
+  text-align: center;
+  top:200%;
+left:55%;
+}
+.logo{
+margin= 0px;
+padding= 0px;
+box-sizing:border-box;
+font-size: 36px;
+font-family: Copperplate Gothic Bold ;
+letter-spacing: 3px;
+position:absolute;
+top:4%;
+left:10%;
+}
+
+.tag{
+font-size: 14px;
+font-family: serif;
+letter-spacing: 1px;
+position:absolute;
+top:5%;
+left:15%;
+color: black;
+}
+
+.nav{
+
+width:100%
+height:75px;
+line-height:75px;
+padding:0px 100px;
+}
+
+ul{
+position:absolute;
+top:9%;
+left:29%;
+}
+
+li{
+display:inline-block;
+list-style: none;
+}
+
+a{
+font-size:13px;
+text-transform: uppercase;
+font-family:Geneva ;
+padding:0px 30px;
+color: black;
+text-decoration: none;
+letter-spacing: 0px;
+}
+
+.img1{
+box-sizing: border-box;
+position:absolute;
+top:22%;
+left:40%;
+}
+
+.bar{
+background:black;
+height:40px;
+width:100%;
+color: white;
+letter-spacing: 2px;
+font-family:monospace;
+}
+
+h4
+{
+position:absolute;
+top:2%;
+left:37%;
+font-family:"Corbert";
+}
+
+.lefthead{
+position:absolute;
+font-size: 50px;
+top:44%;
+left:6%;
+font-family:"Crimson text";
+line-height: 20px;
+}
+
+.info{
+position:absolute;
+font-size: 19px;
+top:87%;
+left:-5%;
+font-family:"Ariel";
+line-height: 20px;
+position: center;
+}
+
+.button1{
+background-color: black;
+border-radius: 9px;
+position:absolute;
+
+padding: 8px 22px;
+top:130%;
+left:30%;
+font-size: 28px;
+font-family: "serif";
+}
+
+.firstt{
+position:absolute;
+top:228%;
+left:-25%;
+width:350%;
+height:190%;
+}
+
+.dis{
+  margin: 50px 32px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.gre{
+color:white;
+font-size: 29px;
+font-family: "Georgia";
+
+}
+.blu{
+color:white;
+font-size:22px;
+font-family: "Ariel";
+}
+.icon1{
+position:absolute;
+top:60%;
+left:25%;
+}
+.icon2{
+position:absolute;
+top:60%;
+left:35%;
+}
+.icon3{
+position:absolute;
+top:60%;
+left:55%;
+}
+.icon4{
+position:absolute;
+top:60%;
+left:65%;
+}
+.mainhead{  
+  top:40%;
+  left:65%;
+}
+input[type=text]{
+width: 30%;
+padding: 8px 12px;
+margin: 4px 0;
+box-sizing: border-box;
+border: 1px solid #555;
+background-color: #C1C1C1;
+color: white;
+
+}
+
+input[type=text]:focus {
+background-color: #AAAAAA;
+}
+
+.font1 {
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.font2 {
+font-size: 70px;
+font-family: "Copperplate",  Fantasy;
+}
+
+.font3 {
+font-family: "Lucida Console", "Courier New", monospace;
+font-size: 20px;
+}
+.font4{
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+}
+
+.font5{
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.font6 {
+font-size: 24px;
+font-family: "Copperplate",  Fantasy;
+padding-left: 40px;
+}
+.img{
+  width:5%;
+  height:5%;
+}
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+  box-sizing:border-box;
+  font-size: 36px;
+  font-family: Copperplate Gothic Bold ;
+  letter-spacing: 3px;
+  color: white;
+  position:absolute;
+  top:-2%;
+  left:9%;
+}
+
+.nav{
+
+  width:100%
+  height:75px;
+  line-height:75px;
+  padding:0px 100px;
+}
+
+ul{
+  position:absolute;
+  top:9%;
+  left:33%;
+}
+
+li{
+  display:inline-block;
+  list-style: none;
+}
+
+a{
+  font-size:15px;
+  text-transform: uppercase;
+  font-family:Geneva ;
+  padding:0px 30px;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0px;
+
+}
+h4
+{
+  position:absolute;
+  top:-2%;
+  left:40%;
+font-family:"Corbert";
+}
+
+
+.bar{
+position:absolute;
+top:4%;
+left:-1%;
+background:black;
+height:40px;
+width:110%;
+color: white;
+letter-spacing: 2px;
+font-family:monospace;
+}
+

@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(151, 207, 198);
+}
+
+.container{
+    
+    margin: auto;
+    margin-top: 20px;
+    
+  }
+  .col-md-, .col-lg-4{
+
+    margin-bottom: 20px;
+  }
+  .sty{
+    color:aquamarine;
+    font-size: 8px ;
+    color: black ;
+  }
+  .num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 5px;
+  }
+  .uk-border-circle{
+    width: 100px;
+    height: 100px;
+  }
+  h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+  }
+  .cart_aes{
+    width:70%;
+    height:85%;
+    background-color: rgb(205, 236, 235);
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+  }
+  
+  

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" >
+  <title>BMI Calculator</title>
+</head>
+<style>
+    .logo{
+      margin= 0px;
+      padding= 0px;
+      box-sizing:border-box;
+      font-size: 36px;
+      font-family: Questa;
+      letter-spacing: 3px;
+      position:absolute;
+      top:4%;
+      left:10%;
+    }
+    
+    .tag{
+      font-size: 14px;
+      font-family: serif;
+      letter-spacing: 1px;
+      position:absolute;
+      top:5%;
+      left:15%;
+      color: black;
+    }
+    
+    .nav{
+      
+      width:100%
+      height:75px;
+      line-height:75px;
+      padding:0px 100px;
+    }
+    
+    ul{
+      position:absolute;
+      top:9%;
+      left:29%;
+    }
+    
+    li{
+      display:inline-block;
+      list-style: none;
+    }
+    
+    a{
+      font-size:13px;
+      text-transform: uppercase;
+      font-family:Geneva ;
+      padding:0px 30px;
+      color: black;
+      text-decoration: none;
+      letter-spacing: 0px;
+    }
+    
+    .img1{
+      box-sizing: border-box;
+      position:absolute;
+      top:19%;
+      left:45%;
+    }
+    
+    .bar{
+      background:black;
+      height:40px;
+      width:100%;
+      color: white;
+      letter-spacing: 2px;
+      font-family:"monospace";
+      
+    }
+    
+    
+    
+    h4
+    {
+      position:absolute;
+      top:2%;
+      left:37%;
+      font-family:"Corbert";
+    }
+    
+    .lefthead{
+      position:absolute;
+      font-size: 50px;
+      top:44%;
+      left:6%;
+      font-family:"Crimson text";
+      line-height: 20px;
+    }
+    
+    .info{
+      position:absolute;
+      font-size: 19px;
+      top:87%;
+      left:-5%;
+      font-family:"Ariel";
+      line-height: 20px;
+      position: center;
+    }
+    
+    .button1{
+      background-color: black;
+      border-radius: 9px;
+      position:absolute;
+    
+      padding: 8px 22px;
+      top:130%;
+      left:30%;
+      font-size: 28px;
+      font-family: "serif";
+    }
+    
+    .bar3{
+        position: absolute;
+        top: 0.8%;
+        left: 42.8%;
+    }
+    
+    .firstt{
+      position:absolute;
+      top:228%;
+      left:-25%;
+      width:350%;
+      height:190%;
+    }
+    
+    .dis{
+        margin: 50px 32px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .gre{
+      color:white;
+      font-size: 29px;
+      font-family: "Georgia";
+    
+    }
+    .blu{
+      color:white;
+      font-size:22px;
+      font-family: "Ariel";
+    }
+    .icon1{
+      position:absolute;
+      top:60%;
+      left:25%;
+    }
+    .icon2{
+      position:absolute;
+      top:60%;
+      left:35%;
+    }
+    .icon3{
+      position:absolute;
+      top:60%;
+      left:55%;
+    }
+    .icon4{
+      position:absolute;
+      top:60%;
+      left:65%;
+    }
+    
+    .haha{
+      top:30%;
+        
+    }
+    
+    figcaption{
+        color: black;
+        font-style: italic;
+        text-align: center;
+        font-size:15px; 
+        font-family:verdana
+    }   
+    
+    img{
+        width: "15";
+    }
+
+    .bmrcal{
+         
+     margin-bottom: 50%;
+    }
+    </style>
+
+    
+    
+
+<body>
+
+    <div class="bar">
+        
+        <p>
+          <center>
+  
+            <h4 class="bar3" >Register now to become a tracker</h4>
+          </center>
+        </p>
+  
+    </div>
+
+    <nav>
+        <div class="logo">
+          
+
+          <p>
+            TRACKULA
+          </p>
+        </div>
+        
+
+        <ul  style="font-size:13px">
+          <bold>
+            <a href="index(1).html">Home</a>
+            <a href="demo2.html">Food Bank</a>
+            <a href=#>BMR Calculator</a>
+            <a href="BMICalchtml.html">BMI Calculator</a>
+            <a href="caloriecounter.html">Calorie Counter</a>
+            <a href=#>About Us</a>
+        </ul>
+        <br><br>
+    
+  
+    </nav>
+    <center>
+  <div class="first-container">
+  <div class="second-container">
+    <div class="application">
+      
+      <div class="bmrcal">
+      <h1 class="title">BMR CALCULATOR</h1>
+      <p class="intro">Fill out the below fields to discover your BMR.</p><br>
+      <p class="intro">Your BMR is the number of calories you burn off in 24 hours</p>
+
+      <form style="width: 20%;">
+        <div class="radio-buttons">
+          <p class="label"><strong>Select your gender</strong></p>
+          <input type="radio" checked="checked" id="male" name="gender" value="male"><label for="male" class="gender-label">Male</label>
+          <input type="radio" id="female" name="gender" value="female"><label for="female" class="gender-label">Female</label>
+        </div>
+
+
+        <p class="label"><strong>Age</strong></p>
+        <input type="number" id="age" class="age-field" min="0" max="130" placeholder="Enter your age"><br><br><br>
+        
+        <p class="label"><strong>Height</strong></p>
+        <input type="number" id="feet" class="field" min="0" max="9" placeholder="ft">
+        <input type="number" id="inches" class="field" min="0" max="11" placeholder="in"><br>
+
+        <p class="label"><strong>Weight</strong></p>
+
+        <input type="number" id="stone" class="field" min="0" max="80" placeholder="stone">
+        <input type="number" id="lbs" class="field" min="0" max="13" placeholder="lbs"><br>
+        
+<br>
+        <input type="submit" id="submit" class="submit">
+      </form>
+
+   
+    </div>
+
+  </div>
+  <div id="results">
+    <div class="results-container">
+      <h1 class="title">Your daily BMI is:</h1>
+      <p id="bmi-result">Placeholder text</p>
+    </div>
+  </div>
+</div>
+  <script src="application.js"></script>
+</center>
+</div>
+</body>
+</html>
